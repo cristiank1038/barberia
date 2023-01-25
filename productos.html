@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Barbería Alura</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-prouctos.css">
+</head>
+<body>
+    <header>
+        <div class="caja">
+
+            <!-- <h1> <img src="image/logo.png" alt="logoBarberia" class="logoBarberia"> </h1> -->
+
+            <h1><img id ="img1" src="image/logo.png" alt="logoBarberia" class="logoBarberia" onmouseover="Cambiar('img1')" onmouseout="this.src='image/logo.png';"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <ul class="productos">
+            <li>
+                <h2>Cabello</h2>
+                <img src="image/cabello.jpg" alt="cabello" class="productos-images">
+                <p class="producto-descripcion">Con tijera o maquiena al gusto del cliente</p>
+                <p class="producto-precio">$ 10.00</p>
+            </li>
+            <li>
+                <h2>Barba</h2>
+                <img src="image/barba.jpg" alt="barba" class="productos-images">
+                <p class="producto-descripcion">Corte y Ciseño popfesional de Barba</p>
+                <p class="producto-precio">$08.00</p>
+            </li>
+            <li>
+                <h2>Cabello + Barba</h2>
+                <img src="image/cabello+barba.jpg" alt="cabello+barba" class="productos-images">
+                <p class="producto-descripcion">Paquete Completo de cabello y barba</p>
+                <p class="producto-precio">$15.00</p>
+            </li>
+        </ul>
+
+    </main>
+    <footer>
+        <img src="image/logo-blanco.png" alt="logo-blanco">
+        <p class="copyrigth"> &copy Copyrigth Barberia Alura 2023</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

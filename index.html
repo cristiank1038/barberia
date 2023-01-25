@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width"> <!-- , initial-scale=1.0-->
+    <title>Barberia Alura</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-home.css">
+        <!-- para body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="caja">
+            <!-- <h1> <img src="image/logo.png" alt="logoBarberia" class="logoBarberia"> </h1> -->
+        
+
+            <h1><img id ="img1" src="image/logo.png" alt="logoBarberia" class="logoBarberia" onmouseover="Cambiar('img1')" onmouseout="this.src='image/logo.png';"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slider">
+        <ul>
+            <li><img class="banner" src="image/banner.jpg" alt="banner"></li> 
+            <li><img class="banner" src="image/slider1.jpg" alt="slider1"></li> 
+            <li><img class="banner" src="image/slider2.jpg" alt="slider2"></li> 
+            <li><img class="banner" src="image/slider3.jpg" alt="slider3"></li>         
+        </ul>
+    </div>
+    <main>
+
+    
+        <section class="principal">
+    
+            <h2 class="tituloCentralizado">Sobre la Barbería Alura</h2>
+            <img class="utensilios" src="image/utensilios.jpg" alt="utensilios de un barbero"> 
+    
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
+    
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+    
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
+    
+        </section>
+
+        <section class="mapa">
+            <h3 class="tituloCentralizado">Nuestra Ubicacion</h3>
+            <p>Nuestro establecimiento esta ubicado en el corazón de la ciudad</p>
+
+            <div class="mapa-contenido">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0506489270074!2d-75.5942114859067!3d6.257058527940895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290dd310a9cf%3A0x55d7a0969a70e1e4!2sCentro%20Comercial%20Obelisco!5e0!3m2!1ses!2sco!4v1674092986206!5m2!1ses!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>                    
+        </section>
+    
+        <section class="diferenciales">
+            <h3 class="tituloCentralizado">Diferenciales</h3>
+            <div class="contenidoDiferenciles">
+
+                <ul class="listaDiferenciales">
+                    <li class="items">Atencion personalizada a los clientes</li>     
+                    <li class="items">Espacio diferenciado</li> 
+                    <li class="items">Localizacion</li> 
+                    <li class="items">Profesionales calificados</li>
+                    <li class="items">Puntuliadad</li>
+                    <li class="items">Limpieza</li> 
+                </ul><img src="image/diferenciales.jpg" alt="image Diferencial" class="imageDiferencial"> 
+            </div>
+            
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <img src="image/logo-blanco.png" alt="logo-blanco">
+        <p class="copyrigth"> &copy Copyrigth Barberia Alura 2023</p>
+    </footer>
+    
+    <div class="contenido-cookie" onclick="elimina(this)">
+        <img src="image/alert-dark.png" alt="alert-dark" class="icono-alerta">
+        <p>This site makes uses of third-party cookies, by clicking "I accept" you agree to the <br>
+        terms aoutlined in our <a href="#">cookie policy</a></p>
+        <button onclick="elimina(this)">I accept</button>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+        <script src="js/script.js"></script>
+</body>
+</html>
